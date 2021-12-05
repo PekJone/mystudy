@@ -1,2 +1,0 @@
-# mystudy
- create for study
