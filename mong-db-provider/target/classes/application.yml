@@ -1,0 +1,11 @@
+server:
+  port: 18100
+
+spring:
+  application:
+    name: mong-db-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://139.196.72.239:1111//eureka/

@@ -44,10 +44,7 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.55" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.55" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.13" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.13" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.13" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.6.1" level="project" />
@@ -108,7 +105,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.6.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.7" level="project" />
@@ -124,7 +120,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.4.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.4.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.21.0" level="project" />
@@ -148,5 +143,15 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.32" level="project" />
   </component>
 </module>
