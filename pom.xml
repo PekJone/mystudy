@@ -6,6 +6,7 @@
 		<module>mong-db-api</module>
 		<module>mong-db-provider</module>
 		<module>mong-db-interface</module>
+		<module>LeetCode</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
