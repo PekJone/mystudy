@@ -20,6 +20,11 @@ public class ReserveTreeCode {
         return root;
     }
 
+    /**
+     * 先序遍历
+     * @param root
+     * @return
+     */
     public TreeNode invertTree2(TreeNode root){
         if(root==null){
             return root;
