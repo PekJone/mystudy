@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mong-db-api" />
+        <module name="eureka-server" />
         <module name="LeetCode" />
         <module name="mong-db-interface" />
         <module name="mong-db-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
       <module name="LeetCode" target="1.8" />
       <module name="mong-db-api" target="1.8" />
       <module name="mong-db-interface" target="1.8" />
@@ -23,10 +25,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LeetCode" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="mong-db-api" options="-parameters" />
       <module name="mong-db-interface" options="-parameters" />
       <module name="mong-db-provider" options="-parameters" />
-      <module name="mystudy" options="-parameters" />
+      <module name="mystudy" options="" />
     </option>
   </component>
 </project>
