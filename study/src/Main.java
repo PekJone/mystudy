@@ -35,5 +35,12 @@ public class Main {
             groups.get(s.length()).add(s);
         }
         System.out.println(groups);
+
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(1);
+        arrayList.add(2);
+        System.out.println(arrayList);
+        arrayList.add(1,3);
+        System.out.println(arrayList);
     }
 }
