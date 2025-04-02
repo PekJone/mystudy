@@ -1,5 +1,10 @@
 package twotree;
 
+import sun.reflect.generics.tree.Tree;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReserveTreeCode {
 
 
@@ -9,17 +14,31 @@ public class ReserveTreeCode {
      * @return
      */
     public TreeNode invertTree1(TreeNode root){
+        List<Integer> list = new ArrayList<>();
         if(root==null){
             return root;
         }
         invertTree1(root.left);
         TreeNode rightNode = root.right;
+        list.add(rightNode.val);
         root.right = root.left;
         root.left = rightNode;
         invertTree1(root.left);
         return root;
     }
 
+    /**
+     *中序遍历
+     */
+    List<Integer> list = new ArrayList<>();
+    public List<Integer> traverNode(TreeNode root){
+      if(root == null)
+          return list;
+      traverNode(root.left);
+      list.add(root.val);
+      traverNode(root.right);
+      return list;
+    }
     /**
      * 先序遍历
      * @param root
